@@ -1,13 +1,13 @@
-weatherApp.directive('weatherApplication', function() {
+weatherApp.directive('weatherReport', function() {
     return {
         restrict: 'AECM',
-        templateUrl:'template.html',
+        templateUrl: 'template.html',
         replace: true,
         scope: {
             weatherDay: '=',
-            convertToStandard: '&',
             convertToDate: '&',
-            dateFormat: '@'
+            convertToStandard: '&',
+            weatherDate: '@'
         }
     }
 });
