@@ -1,3 +1,4 @@
+//Angular Router
 weatherApp.config(function($routeProvider) {
     $routeProvider
         .when('/', {
